@@ -32,15 +32,18 @@ The system provides two roles: **Student** and **Admin**.
 - Spring Security  
 - MySQL
 - REST API  
+---
 
-##Author
-
--Name: Shushma
--Registration No: 22MIS1105
 ### Frontend
 - React 
 - React Router  
 - Fetch for API communication  
 - TailwindCSS / Bootstrap for styling  
 
+---
+
+##Author
+
+-Name: Shushma
+-Registration No: 22MIS1105
 ---
