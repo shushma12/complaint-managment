@@ -42,8 +42,9 @@ The system provides two roles: **Student** and **Admin**.
 
 ---
 
-##Author
+###Author
 
--Name: Shushma
--Registration No: 22MIS1105
+- Name: Shushma
+- Registration No: 22MIS1105
+
 ---
