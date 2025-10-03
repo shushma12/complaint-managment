@@ -1,51 +1,42 @@
-Complaint Registration Web Application
+# Complaint Registration Web Application
 
-A full-stack web application built with Spring Boot (backend) and React (frontend) for managing complaint registration and resolution.
+This is a full-stack web application built with **Spring Boot (backend)** and **React (frontend)** to manage complaint registration and resolution.  
 
-This system allows users to log in as either Student or Admin:
+The system provides two roles: **Student** and **Admin**.  
+- Students can log in, submit complaints, and track their complaint status.  
+- Admins can log in, view all submitted complaints, and update the status of complaints.  
 
-Students can submit complaints and track their status.
+---
 
-Admins can view all complaints and update their statuses.
+## Features
 
-Features
-Student
+### Student
+- User authentication (login)  
+- Submit complaint with title, description, and category  
+- View a list of submitted complaints  
+- Track complaint status (Pending, In Progress, Resolved)  
 
-Register/Login to the system
+### Admin
+- User authentication (login)  
+- View all complaints submitted by students  
+- Update complaint status  
 
-Submit a complaint with details (title, description, category, etc.)
+---
 
-View list of submitted complaints
+## Tech Stack
 
-Track the status of each complaint (Pending, In Progress, Resolved)
+### Backend
+- Java 17+  
+- Spring Boot  
+- Spring Data JPA  
+- Spring Security  
+- MySQL/PostgreSQL (or H2 for development)  
+- REST API  
 
-Admin
+### Frontend
+- React (CRA or Vite)  
+- React Router  
+- Axios for API communication  
+- TailwindCSS / Bootstrap for styling  
 
-Login as Admin
-
-View all complaints submitted by students
-
-Change the status of complaints (Pending → Resolved)
-
-Tech Stack
-Backend (Spring Boot)
-
-Java + Spring Boot
-
-Spring Data JPA (for database operations)
-
-MySQL/PostgreSQL (or H2 for development)
-
-Spring Security (for authentication and role-based access)
-
-REST APIs
-
-Frontend (React)
-
-React (CRA or Vite)
-
-React Router (for navigation)
-
-Axios/Fetch (for API calls)
-
-TailwindCSS / Bootstrap (for UI styling)
+---
