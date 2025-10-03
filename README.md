@@ -30,13 +30,13 @@ The system provides two roles: **Student** and **Admin**.
 - Spring Boot  
 - Spring Data JPA  
 - Spring Security  
-- MySQL/PostgreSQL (or H2 for development)  
+- MySQL
 - REST API  
 
 ### Frontend
-- React (CRA or Vite)  
+- React 
 - React Router  
-- Axios for API communication  
+- Fetch for API communication  
 - TailwindCSS / Bootstrap for styling  
 
 ---
